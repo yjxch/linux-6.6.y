@@ -372,6 +372,7 @@ snd-soc-wsa881x-objs := wsa881x.o
 snd-soc-wsa883x-objs := wsa883x.o
 snd-soc-wsa884x-objs := wsa884x.o
 snd-soc-zl38060-objs := zl38060.o
+snd-soc-acx00-objs := acx00.o
 # Amp
 snd-soc-max9877-objs := max9877.o
 snd-soc-max98504-objs := max98504.o
@@ -758,6 +759,7 @@ obj-$(CONFIG_SND_SOC_WSA881X)	+= snd-soc-wsa881x.o
 obj-$(CONFIG_SND_SOC_WSA883X)	+= snd-soc-wsa883x.o
 obj-$(CONFIG_SND_SOC_WSA884X)	+= snd-soc-wsa884x.o
 obj-$(CONFIG_SND_SOC_ZL38060)	+= snd-soc-zl38060.o
+obj-$(CONFIG_SND_SOC_ACX00)	+= snd-soc-acx00.o
 
 # Amp
 obj-$(CONFIG_SND_SOC_MAX9877)	+= snd-soc-max9877.o
